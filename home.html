@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Blue</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 650px;
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .button {
+            margin-top: 50px;
+            margin-left: 225px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .button:hover:hover {
+            background-color: #0056b3;
+        }
+
+        .start-btn {
+            margin-top: 30px;
+            padding: 30px 30px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to the Technical Test</h1>        
+        <p><strong>Test Instructions:</strong></p>
+        <p>You will have 20 minutes to complete the test. Ensure you are in a quiet environment and free of distractions.</p>
+        <p><strong>Marking Instructions:</strong> </p>
+            
+            <p>Number of Questions in the Test : 10 questions,<br/>
+            Question with 1 correct option : 20 marks for each correct option,<br/>
+            Questions with 2 correct option : 10 marks for each correct option,<br/>
+            Questions with 3 correct option : 6.66 marks for each correct option,<br/>
+            Questions with 4 correct option : 5 marks for each correct option,<br/>
+            Negative Marking: For each incorrect answer, 10 marks will be deducted from your total score.<br>
+            Please ensure you select the correct options carefully to avoid losing marks.</p>
+
+        <a class="button" href="./studenttest.html" class="start-btn" id="startTestBtn">Start the Test</a>
+
+    </div>
+
+    <script>
+        // JavaScript to start the test (you can add logic to display the test or redirect)
+        document.getElementById("startTestBtn").addEventListener("click", function() {
+            alert("The Technical Test will Start Soon!.");
+            // Here, you could also load the test questions or redirect to another page.
+        });
+    </script>
+
+</body>
+</html>
